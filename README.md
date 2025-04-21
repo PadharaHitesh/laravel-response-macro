@@ -1,8 +1,8 @@
 # Laravel Response Macro
 
-[![Packagist Version](https://img.shields.io/packagist/v/your-vendor/laravel-response-macro.svg?style=flat-square)](https://packagist.org/packages/your-vendor/laravel-response-macro)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/your-vendor/laravel-response-macro/run-tests.yml?branch=main&style=flat-square)](https://github.com/your-vendor/laravel-response-macro/actions)
-[![License](https://img.shields.io/packagist/l/your-vendor/laravel-response-macro.svg?style=flat-square)](LICENSE)
+[![Packagist Version](https://img.shields.io/packagist/v/hiteshpadhara/laravel-response-macro.svg?style=flat-square)](https://packagist.org/packages/hiteshpadhara/laravel-response-macro)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/hiteshpadhara/laravel-response-macro/run-tests.yml?branch=main&style=flat-square)](https://github.com/hiteshpadhara/laravel-response-macro/actions)
+[![License](https://img.shields.io/packagist/l/hiteshpadhara/laravel-response-macro.svg?style=flat-square)](LICENSE)
 
 > Add a `Response::api()` macro for uniform JSON API responses in Laravel.
 
@@ -11,7 +11,7 @@
 Install the package via Composer:
 
 ```bash
-composer require your-vendor/laravel-response-macro
+composer require hiteshpadhara/laravel-response-macro
 ```
 
 Laravel ≥10 will auto-discover the service provider. For older versions, register it manually:
@@ -20,7 +20,7 @@ Laravel ≥10 will auto-discover the service provider. For older versions, regis
 // config/app.php
 'providers' => [
     // ...
-    YourVendor\ResponseMacro\ResponseMacroServiceProvider::class,
+    hiteshpadhara\ResponseMacro\ResponseMacroServiceProvider::class,
 ];
 ```
 
