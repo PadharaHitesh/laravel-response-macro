@@ -1,5 +1,5 @@
 {
-    "name": "your-vendor/laravel-response-macro",
+    "name": "hiteshpadhara/laravel-response-macro",
     "description": "Adds a Response::api() macro for uniform JSON APIs",
     "type": "library",
     "license": "MIT",
