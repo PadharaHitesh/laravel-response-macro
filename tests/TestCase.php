@@ -2,6 +2,7 @@
 
 namespace Hiteshpadhara\ResponseMacro\Tests;
 
+use Illuminate\Http\Response;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 use Hiteshpadhara\ResponseMacro\ResponseMacroServiceProvider;
 
