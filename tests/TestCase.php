@@ -2,12 +2,19 @@
 
 namespace Hiteshpadhara\ResponseMacro\Tests;
 
-use Illuminate\Http\Response;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 use Hiteshpadhara\ResponseMacro\ResponseMacroServiceProvider;
 
 abstract class TestCase extends BaseTestCase
 {
+    /**
+     * The latest response.
+     * Required for Orchestra Testbench compatibility across versions.
+     *
+     * @var \Illuminate\Http\Response|null
+     */
+    public static $latestResponse;
+
     /**
      * Get package providers.
      *
