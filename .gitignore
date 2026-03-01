@@ -1,0 +1,15 @@
+/vendor/
+/node_modules/
+/.idea
+/.vscode
+composer.lock
+package-lock.json
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+.phpunit.result.cache
+/build/
+/clover.xml
+coverage.xml
