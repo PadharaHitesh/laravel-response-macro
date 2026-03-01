@@ -6,16 +6,9 @@ use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Validation\Factory as ValidationFactory;
 use Illuminate\Validation\Validator;
-use Orchestra\Testbench\TestCase;
-use Hiteshpadhara\ResponseMacro\ResponseMacroServiceProvider;
 
 class ResponseMacroTest extends TestCase
 {
-    protected function getPackageProviders($app)
-    {
-        return [ResponseMacroServiceProvider::class];
-    }
-
     /** @test */
     public function it_returns_standard_api_format()
     {
